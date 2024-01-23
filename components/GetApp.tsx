@@ -30,7 +30,7 @@ const GetApp = () => {
             </div>
         </div>
         <div className="relative flex w-0 sm:w-2/3 lg:w-2/3" style={{marginRight: '-200px', marginTop: '-50px'}}>
-            <Image src="/utasnii zurag 1.svg" width={1000} height={1000} alt={''} quality={100}/>
+            <Image src="/utas_1.svg" width={1000} height={1000} alt={''} quality={100}/>
         </div>
     </section>
   )

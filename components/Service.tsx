@@ -57,7 +57,7 @@ const Service = () => {
       </div>
       <div className='flex flex-row pt-20 lg:pt-40'>
         <div className='max-container w-0 lg:w-1/2'>
-          <Image src = "/utasnii zurag 2.svg" width={800} height={600} alt={''} quality={100}/>
+          <Image src = "/utas_2.svg" width={800} height={600} alt={''} quality={100}/>
         </div>
         <div className='flex flex-col relative w-full lg:w-1/2'>
           <h1 className='bold-26 center' style={{textAlign:'center'}}>Машинтай хүн бүрийн нийтлэг асуудал</h1>
