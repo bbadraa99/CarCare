@@ -19,7 +19,7 @@ export default function Home() {
             />
           </div>
           <Navbar/>
-          <div className='pt-32 pb-32'> 
+          <div className='pt-12 md:pt-24 lg:pt-32 pb-12 md:pb-24 lg:pb-32'> 
             <GetApp/>
           </div>
         </div>

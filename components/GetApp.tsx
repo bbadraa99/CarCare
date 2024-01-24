@@ -5,17 +5,17 @@ import Button from './Button'
 const GetApp = () => {
   return (
     
-    <section className="max-container padding-container flex flex-row gap-2 
-    py-10 pb-32 md:gap-1 lg:py-20 xl:flex-row" >
-        <div className="relative z-20 flex flex-1 flex-col xl:w-1/2 gap-6" style={{marginRight: '-200px'}}>
-            <h1 className="flex text-white bold-40 lg:bold-46 xl:bold-52 pt-20">
+    <section className="max-container padding-container flex flex-col flexBetween gap-10 
+    py-10 lg:pb-32 md:gap-10 lg:py-20 md:flex-row relative" >
+        <div className="relative z-20 flex flex-1 flex-col lg:w-1/2 gap-6" >
+            <h1 className="relative text-white bold-36 sm:bold-40 lg:bold-46 xl:bold-52 pt-20">
                 Car Care 
                 <br />
                 машинаа хайрлаж 
                 <br />
                 халамжилья
             </h1>
-            <h2 className="relative flex regular-18 lg:regular-20 xl:regular-24 text-white">
+            <h2 className="relative regular-16 sm:regular-18 lg:regular-20 xl:regular-24 text-white">
                 Авто машины засвар үйлчилгээг нэг дороос
                 <br />
                 авахад илүү хялбар боллоо.
@@ -29,8 +29,8 @@ const GetApp = () => {
                 </a>
             </div>
         </div>
-        <div className="relative flex w-0 sm:w-2/3 lg:w-2/3" style={{marginRight: '-200px', marginTop: '-50px'}}>
-            <Image src="/utas_1.svg" width={1000} height={1000} alt={''} quality={100}/>
+        <div className="relative flex w-0 sm:w-4/5 md:w-3/5" style={{marginRight: "-100px"}}>
+            <Image src="/utas_1.svg" width={900} height={600} alt={''} quality={100} objectFit="contain"/>
         </div>
     </section>
   )
