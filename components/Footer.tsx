@@ -30,7 +30,7 @@ const Footer = () => {
             <Link href='https://www.instagram.com/carcare.app/?fbclid=IwAR2wt6As3g5Vq0Ap2bMyJgmfpxf5_4S7R2j4jaAvKTewDuMXFky7gq_j_gQ' target="_blank">
               <Image src="/instagram logo.svg" alt="" width={60} height={60}/>
             </Link>
-            <Link href='https://www.instagram.com/carcare.app/?fbclid=IwAR2wt6As3g5Vq0Ap2bMyJgmfpxf5_4S7R2j4jaAvKTewDuMXFky7gq_j_gQ' target="_blank">
+            <Link href='https://www.linkedin.com/company/car-care-application/about/' target="_blank">
               <Image src="/linkedIn logo.png" alt="" width={28} height={28}/>
             </Link>
           </div>

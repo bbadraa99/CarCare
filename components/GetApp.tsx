@@ -1,6 +1,5 @@
 import Image from 'next/image'
 import React from 'react'
-import Button from './Button'
 
 const GetApp = () => {
   return (
@@ -21,10 +20,10 @@ const GetApp = () => {
                 авахад илүү хялбар боллоо.
             </h2>
             <div className="flex w-full flex-col sm:flex-row gap-4">
-                <a href="https://www.apple.com/app-store/" target="_blank" rel="noopener noreferrer">
+                <a href="https://play.google.com/store/games?hl=en&gl=US&pli=1" target="_blank" rel="noopener noreferrer">
                     <Image src="/Google play- blue.svg" width={195} height={100} alt={''}/>
                 </a>
-                <a href="https://play.google.com/store/games?hl=en&gl=US&pli=1" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.apple.com/app-store/" target="_blank" rel="noopener noreferrer">
                     <Image src="/app store-img.svg" width={200} height={200} alt={''}/>
                 </a>
             </div>

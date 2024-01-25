@@ -38,7 +38,7 @@ const Service = () => {
         </h2>
       </div>
       <div className='flex flex-row pt-20 center'>
-        <ul className="gap-10 lg:gap-20 lg:flex items-center flex-col lg:flex-row">
+        <ul className="gap-10 lg:gap-20 lg:flex items-center flex-col lg:flex-row w-1/2 lg:w-full">
           {SERVICE_BLOCKS.map((element) => (
             <motion.li key={element.text} className='flex-col center hover:bg-gray-10 z-10 pt-5'> 
               <div style={{ width: '200px', height: '150px', position: 'relative' }} >
