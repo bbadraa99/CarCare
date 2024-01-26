@@ -29,14 +29,17 @@ const ServiceListFunc = () => {
 const Service = () => {
   return (
     <section id="services" className="2xl:max-container relative flex flex-col py-10 lg:mb-10 lg:py-20 w-full">
-      <div className='center flex-col pt-10' style={{textAlign: 'center'}}>
-        <h1 className='center bold-26' style={{ fontWeight: '600' }}>
-          Таньд өгч буй бидний үнэ цэн
-        </h1>
-        <h2 className='center regular-16 pt-5' style={{ fontWeight: '500' }}>
-          Авто машины бүх төрлийн үйлчилгээг гар утаснаасаа
-        </h2>
+      <div className='center'>
+        <div className='flex-col pt-10 w-3/4' style={{textAlign: 'center'}}>
+          <h1 className='center bold-26' style={{ fontWeight: '600' }}>
+            Таньд өгч буй бидний үнэ цэн
+          </h1>
+          <h2 className='center regular-16 pt-5' style={{ fontWeight: '500' }}>
+            Авто машины бүх төрлийн үйлчилгээг гар утаснаасаа
+          </h2>
+        </div>
       </div>
+      
       <div className='flex flex-row pt-20 center'>
         <ul className="gap-10 lg:gap-20 lg:flex items-center flex-col lg:flex-row w-1/2 lg:w-full">
           {SERVICE_BLOCKS.map((element) => (
