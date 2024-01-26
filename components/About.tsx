@@ -28,7 +28,7 @@ const About = () => {
       </div>
       <br />
       <div id="contact" className='bg-white pt-10 pb-10 center' style={{borderRadius: '40px' }}>
-        <ul className="center gap-4 flex flex-col xs:flex-row sm:gap-10 justify-between">
+        <ul className="center gap-6 flex flex-col sm:flex-row sm:gap-8 lg:gap-10 justify-between">
           {CONTACT_BLOCKS.map((element) => (
             <li key={element.text} className='flex flexStart flex-col z-10 w-1/3'> 
               <div className= "center" style={{ width: '40px', height: '40px', position: 'relative' }} >
