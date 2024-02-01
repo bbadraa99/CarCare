@@ -5,9 +5,9 @@ const GetApp = () => {
   return (
     
     <section className="max-container padding-container flex flex-col flexBetween gap-10 
-    py-10 lg:pb-32 md:gap-10 lg:py-20 md:flex-row relative" >
+    center h-full w-full sm:pb-6 lg:pb-12 xl:pb-24 2xl:pb-32 md:gap-10 md:flex-row py-10" >
         <div className="relative z-20 flex flex-1 flex-col lg:w-1/2 gap-6" >
-            <h1 className="relative text-white bold-36 sm:bold-40 lg:bold-46 xl:bold-52 pt-20">
+            <h1 className="relative text-white bold-36 sm:bold-40 lg:bold-46 xl:bold-52">
                 Car Care 
                 <br />
                 машинаа хайрлаж 
