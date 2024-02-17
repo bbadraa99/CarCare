@@ -28,7 +28,7 @@ const ServiceListFunc = () => {
 
 const Service = () => {
   return (
-    <section id="services" className="2xl:max-container relative flex flex-col py-10 lg:mb-10 lg:py-20 w-full">
+    <section id="services" className="2xl:max-container relative flex flex-col py-10 lg:mb-10 lg:py-20 w-full px-3">
       <div className='center'>
         <div className='flex-col pt-10 w-3/4' style={{textAlign: 'center'}}>
           <h1 className='center bold-26' style={{ fontWeight: '600' }}>
