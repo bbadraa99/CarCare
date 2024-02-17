@@ -9,15 +9,14 @@ export default function Home() {
     <>
       <div>
         <div className='relative'>
-          <div className="absolute -z-10" style={{width: "100vw", height: "100vh"}}>
-            <Image
-                src="/background img-3.svg"
-                layout="fill"
-                alt=''
-                objectFit="cover"
-                quality={100}
-            />
-          </div>
+          <Image
+              src="/background img-3.svg"
+              layout="fill"
+              alt=''
+              objectFit="cover"
+              quality={100}
+              className='absolute -z-10'
+          />
           <Navbar/>
           <div className='pt-12 md:pt-24 lg:pt-32 pb-12 md:pb-24 lg:pb-32'> 
             <GetApp/>

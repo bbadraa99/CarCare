@@ -15,9 +15,7 @@ const GetApp = () => {
                 халамжилья
             </h1>
             <h2 className="relative regular-16 sm:regular-18 lg:regular-20 xl:regular-24 text-white">
-                Авто машины засвар үйлчилгээг нэг дороос
-                <br />
-                авахад илүү хялбар боллоо.
+                Авто машины засвар үйлчилгээг нэг дороос авахад илүү хялбар боллоо.
             </h2>
             <div className="flex w-full flex-col sm:flex-row gap-4">
                 <a href="https://play.google.com/store/games?hl=en&gl=US&pli=1" target="_blank" rel="noopener noreferrer">
